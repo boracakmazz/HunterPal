@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/loginAppLogo"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hunterpal" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/login_username"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/login_password"
+        />
+
+    <Button
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:onClick="onLoginClick"/>
+
+    <Button
+        android:gravity="center"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button"
+        android:onClick="onRegisterClick"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:clickable="true"
+            android:layout_marginLeft="340dp"
+            app:fabSize="normal"
+            android:onClick="onFabClick"
+            app:srcCompat="@drawable/floating_change_icon" />
+
+    </LinearLayout>
+
+ </ScrollView>

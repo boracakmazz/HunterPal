@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">HunterPal</string>
+    <string name="channel_name">myChannel</string>
+
+    <string name="username_is_taken">Username is already taken</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="register_complete">Register Completed!</string>
+    <string name="old_new_username_same">Current username can not be same with old username</string>
+    <string name="update_completed">Username changed</string>
+
+    <string name="delete_user">Delete</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Logın</string>
+    <string name="register_button">Regıster</string>
+    <string name="register_email">Email</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="change_username">Change Username</string>
+    <string name="new_username">New Username</string>
+    <string name="change_username_button">Click to the button on the right bottom to change your username</string>
+
+    <string name="animal_sound">ANIMAL SOUND</string>
+    <string name="see_animal_detail">Click one of the animal pictures to see animal details!</string>
+    <string name="click_sound_button">Click the animal sound button to hear animal voice!</string>
+    <string name="hunting_reserve_button">HUNTING RESERVES</string>
+    <string name="wildlife_button">WILDLIFE</string>
+    <string name="equipments_button">EQUIPMENTS</string>
+    <string name="nearest_shop_button">NEAREST SHOP</string>
+    <string name="contact_button">CONTACT</string>
+    <string name="send_email">SEND EMAIL</string>
+
+    <string name="weapons">WEAPONS</string>
+    <string name="callers">CALLERS</string>
+    <string name="decoys">DECOYS</string>
+
+
+    <string name="hunting_reserve_name">Reserve Name: </string>
+    <string name="country_name">Country: </string>
+    <string name="habitants">Habitants: </string>
+    <string name="vegetation_cover">Vegetation Cover: </string>
+
+
+    <string name="animal_name">Animal Name: </string>
+    <string name="animal_behaviour">Animal Behaviour: </string>
+    <string name="animal_habitat">Habitat: </string>
+    <string name="animal_equipment">Needed Equipment: </string>
+
+    <string name="weapon_name">Weapon Name: </string>
+    <string name="weapon_price">Price: </string>
+    <string name="weapon_magazine">Magazine Capacity: </string>
+    <string name="weapon_cartridge">Cartridge: </string>
+    <string name="weapon_recommended_animals">Recommended Animals: </string>
+    <string name="click_weapon_detail">Click one of the weapon pictures to see weapon details!</string>
+
+    <string name="caller_name">Caller Name: </string>
+    <string name="caller_price">Price: </string>
+    <string name="caller_recommended_animals">Target Animals: </string>
+
+    <string name="decoy_name">Decoy Name: </string>
+    <string name="decoy_price">Price:</string>
+    <string name="decoy_recommended_animals">Target Animals: </string>
+
+    <string name="permission_granted">Permission Granted</string>
+    <string name="permission_denied">Permission Denied</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_nearest_shop">Map</string>
+    <string name="cannot_be_empty">Fields cannot be empty!</string>
+
+
+</resources>

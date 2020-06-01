@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalDetail"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+        android:id="@+id/animalPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/animal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_behaviour"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/animal_behaviour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_habitat"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/animal_habitat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_equipment"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/needed_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+         />
+
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:id="@+id/animal_sound_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_sound"
+        android:onClick="onAnimalSoundClick"/>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_wildlife_details"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:menu="@menu/bottom_bar_menu" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/caller_card_picture"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            app:srcCompat="@android:mipmap/sym_def_app_icon"
+            />
+
+        <TextView
+            android:id="@+id/caller_card_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:gravity="center"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

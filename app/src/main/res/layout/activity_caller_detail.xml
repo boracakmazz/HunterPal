@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CallerDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/callerPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caller_name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/caller_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caller_price"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/caller_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caller_recommended_animals"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/caller_recommended_animals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_wildlife_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="157dp"
+            app:menu="@menu/bottom_bar_menu" />
+
+    </LinearLayout>
+
+</ScrollView>

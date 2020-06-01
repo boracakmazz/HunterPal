@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="363dp"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/hunterpal" />
+
+    <Button
+        android:id="@+id/hunting_reserves"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/hunting_reserve_button"
+        android:onClick="onHuntingReservesClick"/>
+
+    <Button
+        android:id="@+id/wildlife"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/wildlife_button"
+        android:onClick="onWildlifeClick"/>
+
+    <Button
+        android:id="@+id/equipments"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/equipments_button"
+        android:onClick="onEquipmentsClick"/>
+
+    <Button
+        android:id="@+id/nearest_shop"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/nearest_shop_button"
+        android:onClick="onNearestShopClick"/>
+
+    <Button
+        android:id="@+id/contact_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/contact_button"
+        android:onClick="onContactClick"/>
+
+
+</LinearLayout>
+
+
+</ScrollView>

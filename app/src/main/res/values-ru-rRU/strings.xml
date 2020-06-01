@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HunterPal</string>
+
+    <string name="see_animal_detail">Нажмите на одну из картин животных, чтобы увидеть детали животных!</string>
+    <string name="channel_name">myChannel</string>
+    <string name="username_is_taken">" имя пользователя уже используется"</string>
+    <string name="wrong_password">неправильный пароль</string>
+    <string name="register_complete">Регистрация завершена</string>
+    <string name="old_new_username_same">Текущее имя пользователя не может совпадать со старым именем пользователя</string>
+    <string name="update_completed">Имя пользователя изменено</string>
+    <string name="delete_user">" удалять"</string>
+    <string name="login_username">" имя пользователя"</string>
+    <string name="login_password">" пароль"</string>
+    <string name="login_button">" авторизоваться"</string>
+    <string name="register_button">Регистр</string>
+    <string name="register_email">Электронное письмо</string>
+    <string name="register_confirm_password">Подтвердите Пароль</string>
+    <string name="change_username">Изменение имени пользователя</string>
+    <string name="new_username">Новое имя пользователя</string>
+    <string name="change_username_button">Нажмите на кнопку в правом нижнем углу, чтобы изменить свое имя пользователя</string>
+    <string name="animal_sound">Звук животного</string>
+    <string name="click_sound_button">Нажмите кнопку звука животных, чтобы услышать голос животных!</string>
+    <string name="hunting_reserve_button">ОХОТНИЧЬИЕ РЕЗЕРВЫ</string>
+    <string name="wildlife_button">живая природа</string>
+    <string name="equipments_button">оборудование</string>
+    <string name="nearest_shop_button">Ближайший прыжок</string>
+    <string name="contact_button">" контакт"</string>
+    <string name="send_email">"отправить письмо "</string>
+    <string name="weapons">ОРУЖИЕ</string>
+    <string name="callers">звонящие</string>
+    <string name="decoys">" приманки"</string>
+    <string name="hunting_reserve_name">Название резерва:</string>
+    <string name="country_name">Страна:</string>
+    <string name="habitants">Жители:</string>
+    <string name="vegetation_cover">Растительный покров:</string>
+    <string name="animal_name">" Имя животного:"</string>
+    <string name="animal_behaviour">Поведение животных:</string>
+    <string name="animal_habitat">Место обитания:</string>
+    <string name="animal_equipment">Необходимое оборудование:</string>
+    <string name="weapon_name">" Название оружия:"</string>
+    <string name="weapon_price">" Цена:"</string>
+    <string name="weapon_magazine">Емкость магазина:</string>
+    <string name="weapon_cartridge">" картридж:"</string>
+    <string name="weapon_recommended_animals">Рекомендуемые животные:</string>
+    <string name="caller_name">" Имя звонящего:"</string>
+    <string name="caller_price">" Цена:"</string>
+    <string name="caller_recommended_animals">" Целевые животные:"</string>
+    <string name="decoy_name">Имя приманки:</string>
+    <string name="decoy_price">" Цена"</string>
+    <string name="decoy_recommended_animals">Целевые животные:</string>
+    <string name="title_activity_nearest_shop">" карта"</string>
+    <string name="cannot_be_empty">Поля не могут быть пустымиFi</string>
+    <string name="click_weapon_detail">Нажмите на одно из изображений оружия, чтобы увидеть детали оружия!</string>
+
+    <string name="permission_granted">Разрешение получено</string>
+    <string name="permission_denied">В правах отказано</string>
+</resources>
